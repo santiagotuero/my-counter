@@ -1,0 +1,62 @@
+.bbv-logo {
+  min-width: 650px;
+  background-color: #fff;
+}
+
+h1 {
+  color: #fff;
+  font-size: 6rem;
+}
+
+button {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: #090a0f;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
+}
+
+button:hover {
+  background-color: #38495a;
+}
+
+.button:active {
+  transform: scale(0.9);
+}
+
+.negative {
+  color: #ff1744;
+  animation: pulse 500ms ease-in-out;
+}
+
+.positive {
+  color: #2abf77;
+  animation: pulse 500ms ease-in-out;
+}
+
+.container {
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 100vh;
+  color: #fff;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
